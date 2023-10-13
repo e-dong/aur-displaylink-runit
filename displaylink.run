@@ -1,0 +1,5 @@
+#!/bin/sh
+PATH=/usr/lib/displaylink
+# sv check <display-manager> ?
+/sbin/modprobe evdi
+/usr/lib/displaylink/DisplayLinkManager
