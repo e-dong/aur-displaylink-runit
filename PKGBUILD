@@ -1,4 +1,8 @@
 # Maintainer: eric-dev <eric2043@gmail.com>
+# Contributor: rHermes <teodor_spaeren@riseup.net>
+# Contributor: bnavigator <code@bnavigator.de>
+# Contributor: PlusMinus
+# Contributor: rhabbachi
 
 pkgname=displaylink-runit
 pkgver=5.8
