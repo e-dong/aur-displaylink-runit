@@ -23,9 +23,9 @@ source=(displaylink-driver-${pkgver}.zip::https://www.synaptics.com/sites/defaul
 sha256sums=('22c552ead448c80d9e8dd48a842bb511184d07a74180ac76bd89dd144ddda816'
             'b5a1a75b2042cd5efb475b53f1ead5207f706c6eb45f4572d7b226ffcdee3ee9'
             '2f81fea43332a62b2cf1dd47e56ea01caf1e886bcd16c3f82b18bfe148fb21a9'
-            SKIP
+            'c844f324ba0be36a3960e09e6db09dee108e18ca94f05135b0215b6e9e7406ed'
             'c08a4726cf4e2f92c7cab00168ae9cc8d69d36a67c570609396a4a674934245a'
-            SKIP)
+            'bf14a9fd6d7b2b6047647d1f6fdc6ee85bcfb0ac2e62af5d90e10e293fb4a741')
 
 prepare() {
   chmod +x displaylink-driver-${_pkgfullver}.run
