@@ -48,9 +48,7 @@ package() {
 
   echo "Installing DLM runit service"
 
-  mkdir -p "$pkgdir/etc/runit/sv/displaylink"
-  install -Dm 644 displaylink.run "$pkgdir/etc/runit/sv/displaylink/run"
-  chmod u+x "$pkgdir/etc/runit/sv/displaylink/run"
+  install -Dm744 displaylink.run "$pkgdir/etc/runit/sv/displaylink/run"
 
   echo """
   For the service to be available through sv you need to symlink it first using the
