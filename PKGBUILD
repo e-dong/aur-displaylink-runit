@@ -50,16 +50,6 @@ package() {
 
   install -Dm744 displaylink.run "$pkgdir/etc/runit/sv/displaylink/run"
 
-  echo """
-  For the service to be available through sv you need to symlink it first using the
-  following command:
-  
-  sudo ln -s /etc/runit/sv/displaylink /run/runit/service/displaylink
-
-  You can no start it using sv:
-  sv up displaylink
-  """
-
   COREDIR="$pkgdir/usr/lib/displaylink"
   install -d -m755 "$COREDIR"
   install -d -m755 "$pkgdir/var/log/displaylink"
