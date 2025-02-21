@@ -66,12 +66,12 @@ main()
 
 start_service()
 {
-  systemctl start displaylink.service
+  sv up displaylink
 }
 
 stop_service()
 {
-  systemctl stop displaylink.service
+  sv down displaylink
 }
 
 
