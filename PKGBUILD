@@ -1,4 +1,7 @@
 # Maintainer: eric-dev <eric2043@gmail.com>
+# Contributor: ptr1337
+# Contributor: aliu
+# Contributor: endorfina <emilia@carcosa.space>
 # Contributor: rHermes <teodor_spaeren@riseup.net>
 # Contributor: bnavigator <code@bnavigator.de>
 # Contributor: PlusMinus
