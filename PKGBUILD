@@ -21,6 +21,7 @@ depends=('evdi<1.15'
          'libusb'
          'elogind'
          'elogind-runit')
+optdepends=('dmidecode: For DLSupport.sh')
 makedepends=('grep' 'gawk' 'wget')
 changelog="displaylink-release-notes-${pkgver}.txt"
 source=(displaylink-driver-${pkgver}.zip::https://www.synaptics.com/sites/default/files/exe_files/${_releasedate}/DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu${pkgver}-EXE.zip
@@ -37,7 +38,7 @@ sha256sums=('449815ad7f98f0dbf3d74e9787e5bd37db912c2d953b4d1f049792f2fb3b7cac'
             '5f89c3153bd090b17394449ef6a7d7c854e865773dfef7e7a35259129d3445d9'
             '530c488fa9b2833ff64611ff2b533f63212a85f8ebed446d5a4d51cf9a52c7ea'
             'bf14a9fd6d7b2b6047647d1f6fdc6ee85bcfb0ac2e62af5d90e10e293fb4a741'
-            '382b47d2f07cf140d5cea4602a0348efc1850d8669df4783c06a7f77660a841f'
+            'e2629548e67e4e72268bdd5a3cdf2917d6f8e58ff7f049dfc3810c1684851541'
             '647b2c165768c29371b7c8356174bc330c795347495636e269f0d4a33b7d726d')
 
 prepare() {

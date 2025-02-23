@@ -20,6 +20,7 @@ pkgbase = displaylink-runit
 	depends = libusb
 	depends = elogind
 	depends = elogind-runit
+	optdepends = dmidecode: For DLSupport.sh
 	conflicts = displaylink
 	source = displaylink-driver-6.1.zip::https://www.synaptics.com/sites/default/files/exe_files/2024-10/DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu6.1-EXE.zip
 	source = displaylink-release-notes-6.1.txt
@@ -35,7 +36,7 @@ pkgbase = displaylink-runit
 	sha256sums = 5f89c3153bd090b17394449ef6a7d7c854e865773dfef7e7a35259129d3445d9
 	sha256sums = 530c488fa9b2833ff64611ff2b533f63212a85f8ebed446d5a4d51cf9a52c7ea
 	sha256sums = bf14a9fd6d7b2b6047647d1f6fdc6ee85bcfb0ac2e62af5d90e10e293fb4a741
-	sha256sums = 382b47d2f07cf140d5cea4602a0348efc1850d8669df4783c06a7f77660a841f
+	sha256sums = e2629548e67e4e72268bdd5a3cdf2917d6f8e58ff7f049dfc3810c1684851541
 	sha256sums = 647b2c165768c29371b7c8356174bc330c795347495636e269f0d4a33b7d726d
 
 pkgname = displaylink-runit
