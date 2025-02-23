@@ -3,6 +3,7 @@ pkgbase = displaylink-runit
 	pkgver = 6.1
 	pkgrel = 1
 	url = https://www.synaptics.com/products/displaylink-graphics
+	install = displaylink-runit.install
 	changelog = displaylink-release-notes-6.1.txt
 	arch = i686
 	arch = x86_64

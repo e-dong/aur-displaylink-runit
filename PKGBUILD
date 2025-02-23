@@ -40,6 +40,7 @@ sha256sums=('449815ad7f98f0dbf3d74e9787e5bd37db912c2d953b4d1f049792f2fb3b7cac'
             'bf14a9fd6d7b2b6047647d1f6fdc6ee85bcfb0ac2e62af5d90e10e293fb4a741'
             'e2629548e67e4e72268bdd5a3cdf2917d6f8e58ff7f049dfc3810c1684851541'
             '647b2c165768c29371b7c8356174bc330c795347495636e269f0d4a33b7d726d')
+install="$pkgname.install"
 
 prepare() {
   chmod +x displaylink-driver-${_pkgfullver}.run
@@ -99,3 +100,4 @@ package() {
   popd
   install -D -m644 DISPLAYLINK-EULA "${pkgdir}/usr/share/licenses/${pkgname}/DISPLAYLINK-EULA"
 }
+
