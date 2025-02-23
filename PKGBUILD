@@ -1,4 +1,4 @@
-# Maintainer: eric-dev <eric2043@gmail.com>
+# Maintainer:  E_D3V <eric2043@gmail.com>
 # Contributor: ptr1337
 # Contributor: aliu
 # Contributor: endorfina <emilia@carcosa.space>
